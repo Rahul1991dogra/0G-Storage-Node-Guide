@@ -236,7 +236,7 @@ The service/node will be start after that:
 </div>
 
 
-* ⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `3562700`
+* ⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `4787000`
 
 🛠️ Installation Instructions
 
@@ -253,9 +253,9 @@ rm -rf $HOME/0g-storage-node/run/db/flow_db
 * Download and extract the Flow db:
 
 ```
-wget https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.gz \
-  -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && \
-  tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
+wget https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.xz \
+  -O $HOME/0g-storage-node/run/db/flow_db.tar.xz && \
+  tar -xJvf $HOME/0g-storage-node/run/db/flow_db.tar.xz -C $HOME/0g-storage-node/run/db/
 ```
 
 * Restart Your Service/Node
@@ -264,7 +264,7 @@ wget https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/
 sudo systemctl restart zgs
 ```
 
-✔️Done: Your Node Will start Syncing From Block `3562700` 🚀
+✔️Done: Your Node Will start Syncing From Block `4787000` 🚀
 
 
 
